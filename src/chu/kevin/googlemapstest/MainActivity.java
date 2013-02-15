@@ -80,7 +80,7 @@ public void onMapClick(LatLng point) {
 	};
 
 	AlertDialog.Builder builder = new AlertDialog.Builder(this);
-	builder.setMessage("Are you sure?").setPositiveButton("Yes", dialogClickListener)
+	builder.setMessage("Do you want to go to the next location?").setPositiveButton("Yes", dialogClickListener)
 	    .setNegativeButton("No", dialogClickListener).show();
 	
 }
